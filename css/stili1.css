@@ -1,0 +1,104 @@
+body
+	{
+		background-image: url(../img/Carta.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+.pulse 
+	{
+		width: fit-content;
+		top: 10px;
+		position: sticky;
+		margin: auto;
+		height: 50px;
+		margin-bottom: 10px;
+		font-size: 16pt;
+		z-index: 5;
+	}
+
+.pulse a:link
+	{
+		background: linear-gradient(#000000, #0000ff);
+		color: white;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 30px;
+		transform: translateX(0px);
+	}
+
+.pulse a:visited 
+	{
+		background: linear-gradient(#000000, #0000ff);
+		color: white;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 30px;
+	}
+
+.pulse a:hover
+	{
+		background: linear-gradient( #0000ff, #000000);
+		font-size: 24pt;
+	}
+
+#Capitoli
+	{
+		font-size: 22pt;
+		font-family: Verdana;
+		color: red;
+		margin-left: 10px;
+		border-radius: 10px;
+		width: fit-content;
+		background-color: aliceblue;
+		box-shadow: 5px 10px 30px rgb(255, 255, 255);
+	}
+
+#Paragrafi
+	{
+		margin-top: 100px;
+		font-size: 18pt;
+		font-family: Verdana;
+		color: black;
+		margin-left: 30px;
+		border-radius: 10px;
+		width: fit-content;
+		background-color: aliceblue;
+		box-shadow: 5px 10px 30px rgb(255, 255, 255);
+	}
+
+.testo
+	{
+		font-weight: bold;
+		font-size: 16pt;
+		text-align: justify;
+		padding-right: 10%;
+		padding-left: 50px;
+	}
+
+.immagini img
+	{
+		margin-top: 60px;
+		float: right;
+		border-radius: 150px;
+		transform: translateX(-70px);
+		border: solid black;
+		border-width: 3px;
+		box-shadow: 5px 10px 30px rgb(0, 0, 0);
+	}
+
+.immagini2 img
+	{
+		margin-top: 60px;
+		float: left;
+		border-radius: 150px;
+		transform: translateX(50px);
+		border: solid black;
+		border-width: 3px;
+		box-shadow: 5px 10px 30px rgb(0, 0, 0);
+	}

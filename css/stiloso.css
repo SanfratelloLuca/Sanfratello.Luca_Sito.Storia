@@ -1,0 +1,73 @@
+body
+	{
+		background-image: url(../img/sto.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+.pulse 
+	{
+		width: fit-content;
+		top: 10px;
+		position: sticky;
+		margin: auto;
+		height: 50px;
+		margin-bottom: 10px;
+		font-size: 16pt;
+	}
+
+.pulse a:link 
+	{
+		background: linear-gradient(#000000, #0000ff);
+		color: white;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 30px;
+	}
+
+.pulse a:visited 
+	{
+		background: linear-gradient(#000000, #0000ff);
+		color: white;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 30px;
+	}
+
+.pulse a:hover, a:active 
+	{
+		background: linear-gradient( #0000ff, #000000);
+		font-size: 24pt;
+	}
+
+div
+	{
+		height : 250px;
+	}
+
+#titolo 
+	{
+		font-weight: bold;
+		font-size: 22pt;
+		padding-left: 660px;
+		margin: auto;
+		padding-top: 80px;
+		font-family: Verdana;
+		color: #FF0033;
+	}
+
+.testo 
+	{
+		font-weight: bold;
+		font-size: 16pt;
+		width: 40%;	
+		text-align: justify;
+		padding-left: 660px;
+		padding-top: 100px;
+		line-height: 25pt;
+	}
